@@ -1,0 +1,145 @@
+body, html{
+  background: linear-gradient(to left,  #e66465, #9198e5);
+  background-repeat: repeat-y;
+  color: white;
+  overflow: auto;
+}
+header{
+margin-top: 15px;
+text-align: center;
+font-size: 34px;
+margin-bottom: 15px;
+}
+.button {
+  background-color: white;
+  border: 1px dashed purple;
+  color: purple;
+  padding: 8px 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 10px;
+}
+button:hover{
+  border: 3px dashed pink;
+}
+nav{
+  margin: 20px auto;
+  position: relative;
+  text-align: center;
+  border-bottom: 1px solid white;
+}
+.input{
+  font-size: 18px;
+  position: relative;
+  left: 180px;
+}
+input{
+  padding: 10px;
+  margin: 10px 0px;
+  border: 1px solid gray;
+}
+.date-input{
+  padding-right: 40px;
+}
+input:hover{
+  border: 4px solid pink;
+}
+.container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.column, aside{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 50px;
+}
+.name1{
+ display: inline-block;
+ text-align: center;
+ margin-top: 100px;
+ font-size: 28px;
+ padding-bottom: 0;
+ margin-bottom: 0;
+}
+.name2{
+ display: inline-block;
+ margin-top: 0;
+ font-size: 28px;
+ padding-bottom: 0;
+ margin-bottom: 0;
+ text-align: center;
+}
+.last-name{
+padding-top: 0px;
+margin-top: 0;
+font-size: 32px;
+text-align: center;
+font-weight: bold;
+
+}
+.date{
+  font-size: 20px;
+  margin-top: 90px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+.location{
+  font-size: 20px;
+  margin-top: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  text-align: center;
+}
+@media (max-width: 880px){
+ .container{
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.column, aside{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 490px;
+  margin: 10px;
+  position: relative;
+}
+aside{
+position: relative;
+left: 100px;
+margin-top: 10px;
+text-align: center;
+}
+}
+#preview{
+  border: 1px dashed black;
+}
+.casual{
+  font-family: 'Calligraffitti', cursive;
+  line-height: 225%;
+  border: 2px dashed black;
+  background-image: url("WedTemp1.png");
+  width: 388px;
+  color: white;
+  text-align: center;
+}
+.floral{
+  font-family: 'Courgette', cursive;
+  border: 2px dashed black;
+  background-image: url("WedTemp2.png");
+  width: 388px;
+  color: white;
+  text-align: center;
+}
+.simple{
+  font-family: 'Courgette', cursive;
+  border: 2px dashed black;
+  background-image: url("WedTemp3.png");
+  width: 388px;
+  color: white;
+  text-align: center;
+}

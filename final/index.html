@@ -5,37 +5,36 @@
   <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Great+Vibes|Merienda" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-  <body>
-      <main>
+  <body class="body">
       <header>
           <h2 class="header">Wedding Invitation Designer</h2>
       </header>
+      <main>
       
-      <div class="wrapper">
-      </div>
-      
-      <section>
-        <div class="container"> 
+      <aside>
+        <!--<div class="container"> -->
           <div class="child-1">
-            <div class="buttons">
-              <h2 class="header-2">Choose your style:</h2>
-              <div id="formalButton">
-                <input type="button" class="formal" id="formal" value="Formal" onclick="changeBackground();"/>
-              </div>
-              <div id="springButton">
-               <input type="button" class="spring" id="spring" value="Spring" onclick="changeBackground2();"/>
-             </div>
-            <div id="artDecoButton">
-             <input type="button" class="artDeco" id="artDeco" value="ArtDeco" onclick="changeBackground3();"/>
-            </div>
+           <h2 class="header-2">Choose your style:</h2>
+           <div class="buttons">
+              <!--<div id="formalButton" class="button">-->
+                <input type="button" class="button" id="formal" value="Formal" onclick="changeBackground();"/>
+      
+              <!--<div id="springButton">-->
+               <input type="button" class="button" id="spring" value="Spring" onclick="changeBackground2();"/>
+       
+            <!--<div id="artDecoButton">-->
+             <input type="button" class="button" id="artDeco" value="ArtDeco" onclick="changeBackground3();"/>
         </div>
+        </div>
+    </aside>
     
-          
+   
+       
+        <section class="desktop">
         <div id="form" class="form">
-         <div id="formal">
            <h2 class="header-3">Event details:</h2>
-            <p>1st name:</p>
-          <input type="text" name="1st-name" class="box" id="first" oninput="info()">
+         <!--<div id="formal">-->
+            <p>1st name:</p> <input type="text" name="1st-name" class="box" id="first" oninput="info()">
             <p>2nd name: </p>
           <input type="text" name="2nd-name" class="box" id="second" oninput="info()">
             <p>Last name: </p>
@@ -62,6 +61,7 @@
               </div>
             </div>
          </div>
+         
         </section>
        </main>
      <script src="./index.json"></script>

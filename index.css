@@ -1,0 +1,83 @@
+body {background-color: pink;
+      font-family: cursive;
+      
+      
+      
+}
+
+.h1 {display: inline-block;
+  
+}
+
+
+.theme h2, .theme h3{margin-right: 20px;
+         font-size: 16px;
+         padding-left: 30px;
+         font-weight: bold;
+         padding-bottom: 30px;
+         margin-top: 8px;
+}
+        
+ .theme {
+   display: flex;
+   flex-direction: row;
+   font-weight: bold;
+   padding-top: 10px;
+}
+
+.theme h2:hover{color:purple;
+                cursor: pointer;
+}
+
+.main {display: flex;}
+
+.left {
+  border: 5px solid purple;
+  width: 50%;
+}
+
+.right {
+border: 5px solid purple;  
+width: 45%;
+}
+
+.right { font-size: 50px;
+        text-align: center;
+        font-weight: bold;
+        
+    
+}
+
+.inputs {padding-left: 280px;
+        padding-bottom: 150px;
+        
+}
+
+.right {background-color: white;}
+
+.Pretty-Posies {
+  background: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.3)), url("https://i.pinimg.com/originals/7c/81/07/7c8107f91694cd9afed390e1afa26492.jpg");
+  color: royal blue;
+  
+}
+
+.Pretty-Posies h4 {
+  position: relative;  
+}
+
+.Bowl-of-Flowers {
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("https://i.pinimg.com/564x/22/a2/e2/22a2e2f6c2ef632515458eddf1ae3cd4.jpg");
+  background-size: cover;
+}
+.Painted-Flowers {
+ background: linear-gradient(rgba(255,255,255,.1), rgba(255,255,255,.1)), url("https://i.pinimg.com/564x/81/9b/82/819b8218cb418700b626ad3793a007fc.jpg?");
+  background-size: cover;
+}
+
+.Roses-and-Cake {
+ background: linear-gradient(rgba(255,255,255,.05), rgba(255,255,255,.05)), url("https://i.pinimg.com/564x/ce/62/e2/ce62e22be141f47b2ae8cda97b49cb54.jpg?b=t");
+  background-size: cover;
+}
+
+.hidden { visibility: hidden;}
+

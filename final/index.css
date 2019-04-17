@@ -1,0 +1,203 @@
+
+.body {
+  margin:10px, auto;
+  padding:16px;
+}
+
+.header {
+  text-align:center;
+  font-family: Montserrat;
+  font-size:40px;
+}
+
+.header-2 {
+  text-align:center;
+  font-family: Montserrat;
+  font-size:20px;
+}
+
+.header-3 {
+  text-align:center;
+  font-family: Montserrat;
+  font-size:20px;
+}
+
+
+.springText {
+ font-family: 'Merienda', cursive;
+ font-size:20px;
+ text-align:center;
+ padding-top:150px;
+
+}
+
+.formalText {
+ font-family: 'Great Vibes', cursive;
+ font-size:20px;
+ padding-top:100px;
+ text-align:center;
+
+}
+
+.artDecoText {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding-top:100px;
+  text-align:center;
+}
+
+
+@media (max-width:600px) { 
+.container {
+  background-color: #A5929D;
+  display:flex;
+  flex-direction:column;
+  padding-bottom:10px;
+}
+
+.form {
+    flex-basis: 50%;
+    font-family: Montserrat;
+    font-size::20px;
+    text-align:center;
+}
+
+.box {
+  width:130px;
+  height:25px;
+  border-radius:10px;
+}
+
+.buttons {
+  font-family: Montserrat;
+  font-size:20px;
+  border-radius:10px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  text-align:center;
+}
+
+.template {
+  position:absolute;
+  text-align:center;
+  height:80%;
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position:center;
+  width:90%;
+}
+
+}
+
+@media (min-width:1080px) {
+  
+
+/* main container */ 
+
+.container {
+  background-color: #E5D9D3;
+  display:flex;
+  flex-direction:row;
+}
+
+/* form and buttons */
+.child-1 {
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height:700px;
+    margin:5px auto;
+
+}
+
+.form {
+    flex-basis: 50%;
+    font-family: Montserrat;
+    font-size:20px;
+}
+
+.box {
+  width:130px;
+  height:25px;
+  border-radius:10px;
+}
+
+.box:hover {
+    border: 5px #A5929D dotted;
+}
+
+.buttons {
+  font-family: Montserrat;
+  font-size:20px;
+  border-radius:10px;
+  padding-top: 5px;
+  padding-bottom:5px;
+}
+
+
+/* template */ 
+.child-2 {
+  width:50%;
+  height:50%;
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-template-column-areas:
+  "template"
+}
+
+#templateChange {
+  position:absolute;
+  text-align:center;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position:center;
+  width: 45%;
+  
+}
+
+.template {
+  position:absolute;
+  text-align:center;
+  height: 900px;
+  background-image: url("https://i.ibb.co/tbgWJBZ/blank-wedding-invitation-card-designs-empty-black-dgfitness-co-732x1024.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position:center;
+  width: 500px;
+}
+
+
+#templateFormal {
+  text-align:center;
+  background-image: url(https://i.ibb.co/XphVMLc/Formal746x961.png);
+  height:100%;
+  background-size:900px;
+  background-position: center;
+}
+
+
+#templateSpring {
+   background-image: url(https://i.ibb.co/CHY6bhn/Spring746x961.png);
+   text-decoration: center;
+   height:100%;
+   background-size: 900px;
+   background-position: center;
+}
+
+#templateArtDeco {
+  background-image: url(https://i.ibb.co/N6cS1Ht/ArtDeco.png);
+  text-decoration: center;
+   height:100%;
+   background-size: 900px;
+   background-position: center;
+}
+
+}
+

@@ -1,0 +1,15 @@
+templates = {
+  "artDeco": {
+    "background-image":
+      "https://ibb.co/8D1czSN"
+  },
+  
+  "formal": {
+    "background-image": "https://ibb.co/bLS7Dmc"
+  }, 
+  
+  "spring":{
+    "background-image": "https://ibb.co/d5VtPGQ"
+  }
+  
+}

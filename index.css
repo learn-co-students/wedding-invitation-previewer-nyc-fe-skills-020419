@@ -1,0 +1,265 @@
+#wrapper {
+  height: auto;
+  width: auto;
+  background-color: black;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-areas:
+  "buttonBar outputs"
+  "inputs outputs"
+  "inputs outputs"
+  "inputs outputs"
+  "inputs outputs"
+  "inputs outputs"
+}
+
+body {
+  width: auto;
+}
+
+#initial-wrapper {
+  align-content: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  letter-spacing: 15px;
+  font-size: 1.5em;
+  font-family: 'Miss Fajardose';
+}
+
+
+#family {
+
+  font-size: 0.6em;
+}
+
+#date, #location {
+  font-size: 0.6em;
+}
+
+#cordial {
+  font-size: 0.6em;
+}
+
+
+#output-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  margin: 20px;
+}
+
+h1, h3 {
+  margin: 0 auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+  font-family: 'Dosis'
+}
+
+
+
+span {
+  margin: 0 auto;
+
+}
+
+p {
+  margin: 0 auto;
+}
+
+#invitationTitle {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  font-size: 0.85em;
+  font-weight: bold;
+}
+
+.textBox {
+  margin: 0 auto;
+  width: 50%;
+}
+
+#inputs {
+  grid-area: inputs;
+  padding: 10px;
+  margin: 0 auto;
+  background-color: WhiteSmoke;
+  width: 70%;
+  height: 80%;
+  font-family: 'Dosis'
+}
+
+#input-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  margin-top: 50px;
+}
+
+
+#buttonBar {
+  grid-area: buttonBar;
+  display: block;
+  margin: auto;
+  background-color: black;
+  margin-bottom: 0px
+}
+
+.button {
+  background-color: black;
+  color: white;
+  border-color: black;
+  font-family: 'Dosis';
+  border-color: #696969;
+}
+
+.invite {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.easter {
+  grid-area: outputs;
+  height: 550px;
+  width: 400px;
+  margin: 100px auto;
+  background-color: #fde7f9; 
+  background-image: url("https://i.imgur.com/dqActcF.jpg");
+  background-size: contain;
+  font-family: 'Forum';
+  color: rgb(234,215,184);
+  font-size: 2em
+}
+
+.hawaii {
+  grid-area: outputs;
+  height: 600px;
+  width: 400px;
+  margin: 100px auto;
+  background-image: url("https://i.imgur.com/69xvkQQ.jpg");
+  background-size: contain;
+  font-family: 'Ewert';
+  color: white;
+  font-size: 2em
+}
+
+.hawaii-wrapper {
+  height: 90%;
+  margin: 35px 35px;
+  /*background-color: ivory;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.easter-wrapper {
+  height: 90%;
+  margin: 35px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.wood {
+  grid-area: outputs;
+  height: 600px;
+  width: 400px;
+  margin: 100px auto;
+  background-image: url("https://i.imgur.com/Kd0nQ6p.jpg");
+  font-family: 'Great Vibes';
+  color: black;
+  font-size: 2em;
+  background-size: contain;
+}
+
+.wood-wrapper {
+  height: 80%;
+  margin: 35px 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 0.8em;
+}
+
+.outputNamesHawaii {
+  font-family: 'Ewert'
+}
+
+.outputNamesEaster {
+  font-family: 'Forum'
+}
+
+.outputNamesWood {
+  font-family: 'Great Vibes';
+  color: #194f2d;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 786px) {
+  #wrapper {
+  grid-template-columns: 1fr;
+  grid-template-areas:
+  "inputs"
+  "inputs"
+  "inputs" 
+  "inputs"
+  "buttonBar"
+  "outputs"
+  "outputs"
+  "outputs"
+  "outputs"
+  }
+  
+  #outputs {
+    width:auto;
+    margin: 50px auto;
+  }
+  
+  #inputs {
+    height: 100%;
+  }
+  
+  #family {
+    width:80%;
+  }
+  
+  /*#inputs {*/
+  /*  height: 100%;*/
+  /*}*/
+  
+  #buttonBar {
+    margin-top:40px;
+  }
+  
+  .hawaii {
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+
+  #output-wrapper {
+    margin: 0;
+    width: 400px;
+  }
+  
+  }
+  
+  @media (max-width: 415px) {
+    body {
+      width: 400px;
+    }
+  }
+
+
+  
+
+
+
+

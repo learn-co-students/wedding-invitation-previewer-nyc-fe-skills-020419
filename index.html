@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "./index.css" rel= "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Calligraffitti|Courgette" rel="stylesheet">
+    
+  </head>
+  <body>
+    <header> Wedding Invitation Designer</header>
+    <div class= "container">
+      <div class=" left">
+      <nav class= "nav">
+      <button id= "casual" class= "button">Casual</button>
+      <button id= "floral" class= "button">Floral</button>
+      <button id= "simple" class= "button">Simple</button>
+    </nav>
+      <div class= "column">
+        <div class="input">First Name: <div><input id = "name1"placeholder= "John" type="text"></div></div>
+        
+        <div class="input">Second Name: <div><input id = "name2" placeholder= "Jane"  type="text"></div></div>
+        
+        <div class="input">Last Name: <div><input id = "lastName" placeholder= "Smith" type="text"></div></div>
+        
+        <div class="input">Date: <div><input id = "dateInput" type="date" class = "date-input"></div></div>
+        <div class="input">Wedding Location: <div><input id = "locationW" placeholder= "123 Forever Lane, NYC, NY" type="address"></div></div>
+      </div>
+      </div>
+      <aside id= "preview"> 
+        <div id= "name1Display" class= "name1"></div>
+        <div id= "name2Display" class= "name2"></div>
+        <div id= "lastNameDisplay" class= "last-name"></div>
+        <div id= "dateInputDisplay" class= "date"></div>
+        <div id= "locationDisplay" class= "location"></div>
+      </aside>
+    </div>
+    <script src= ./index.js></script>
+  </body>
+</html>

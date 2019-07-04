@@ -1,0 +1,278 @@
+.header {
+  font-family: Montserrat; 
+  font-size:30px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #D9A6A1;
+}
+
+.body {
+  background-color: #E5D9D3;
+}
+
+.header-2 {
+  background-color: #F3D1C8;
+  font-family: Montserrat;
+  font-size:20px;
+  text-align: center;
+}
+
+.header-3 {
+  background-color: #F3D1C8;
+  font-family: Montserrat;
+  font-size:20px;
+  text-align: center;
+}
+
+.button {
+  font-family: Montserrat;
+  font-size:20px;
+  border-radius:8px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  text-align: center;
+  background-color:  #F3D1C8;
+}
+
+.buttons {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:center;
+  align-items:flex-end;
+  margin:10px;
+  justify-content:space-evenly;
+}
+
+.button:hover {
+ border: 1px #D9A6A1 dotted;
+}
+
+.button.click {
+  border-color: #D9A6A1;
+}
+
+.box:hover {
+    border: 1px #D9A6A1 dotted;
+}
+.box:click {
+  border-color: #D9A6A1;
+}  
+
+
+.form {
+   font-family: Montserrat;
+  font-size:20px;
+  display:flex;
+  flex-direction:column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius:8px;
+  padding-top: 1px;
+  padding-bottom:1px;
+}
+
+.box {
+  width:130px;
+  height:25px;
+  border-radius:10px;
+}
+
+.template {
+  position:absolute;
+  text-align:center;
+  height:80%;
+  background-repeat:no-repeat;
+  background-size: contain;
+  background-position:center;
+  width:90%;
+  justify-content: center;
+  margin-top: 30px;
+  border: solid #D9A6A1;
+  margin-bottom:200px;
+}
+
+.springText {
+ font-family: 'Merienda', cursive;
+ font-size:20px;
+ text-align:center;
+ padding-top:150px;
+
+}
+
+.formalText {
+ font-family: 'Great Vibes', cursive;
+ font-size:20px;
+ padding-top:100px;
+ text-align:center;
+
+}
+
+.artDecoText {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding-top:100px;
+  text-align:center;
+}
+
+@media (min-width:768px) {
+  .container {
+  background-color: #E5D9D3;
+  /*display:flex;*/
+  /*flex-direction:row;*/
+}
+
+
+.button {
+  font-family: Montserrat;
+  font-size:20px;
+  border-radius:8px;
+  padding-top: 1px;
+  padding-bottom:1px;
+  text-align: center;
+  background-color:  #F3D1C8;
+}
+
+.buttons {
+  display:flex;
+  flex-direction:row;
+  flex-wrap:nowrap;
+  justify-content:center;
+  align-items:flex-end;
+  margin:10px;
+  justify-content:center;
+}
+
+
+.form {
+    flex-basis: 50%;
+    font-family: Montserrat;
+    font-size:20px;
+}
+
+.box {
+  width:130px;
+  height:25px;
+  border-radius:10px;
+}
+
+.box:hover {
+    border: 5px #A5929D dotted;
+}
+
+.desktop {
+  /*display:flex;*/
+  /*flex-direction:column;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*flex-template-column-areas:*/
+  /*"template" "form"*/
+  display:grid;
+  grid-template-columns: repeat(2, 33.3%); 
+  grid-template-rows:700px;
+  /*grid-auto-rows:100px;*/
+  justify-content:center;
+  align-items:center;
+  margin:10px auto;
+  height:1000px;
+  grid-template-areas: 
+  "template"
+  "form";
+  border: 5px #f7f7fc solid;
+}
+
+/*.template {*/
+/*  position:absolute;*/
+/*  text-align:center;*/
+/*  height:50%;*/
+/*  background-repeat:no-repeat;*/
+/*  background-size: contain;*/
+/*  background-position:center;*/
+/*  width:33.33%;*/
+/*  justify-content: center;*/
+/*  margin-top: 30px;*/
+/*  border: solid #D9A6A1;*/
+/*  margin-bottom:200px;*/
+/*}*/
+
+
+.child-2 {
+  width:50%;
+  height:100%;
+  /*display:flex;*/
+  /*flex-direction:column;*/
+  /*flex-wrap: wrap;*/
+  /*justify-content: center;*/
+  /*align-items: center;*/
+  /*flex-template-column-areas:*/
+  /*"template"*/
+}
+
+#templateChange {
+  position:absolute;
+  text-align:center;
+  height: 90%;
+  background-repeat: no-repeat;
+  background-size: 500px;
+  background-position:center;
+  width: 45%;
+}
+  
+/*  .child-1 {*/
+/*    width:50%;*/
+/*    display:flex;*/
+/*    flex-direction:column;*/
+/*    flex-wrap: wrap;*/
+/*    justify-content: center;*/
+/*    align-items: center;*/
+/*    height:700px;*/
+/*    margin:5px auto;*/
+/*}*/
+
+.container {
+  background-color: #E5D9D3;
+  display:flex;
+  flex-direction:row;
+}
+
+}
+/*}*/
+
+/*.template {*/
+/*  position:absolute;*/
+/*  text-align:center;*/
+/*  height: 900px;*/
+/*  background-image: url("https://i.ibb.co/tbgWJBZ/blank-wedding-invitation-card-designs-empty-black-dgfitness-co-732x1024.jpg");*/
+/*  background-repeat: no-repeat;*/
+/*  background-size: contain;*/
+/*  background-position:center;*/
+/*  width: 500px;*/
+/*}*/
+
+
+.springText {
+ font-family: 'Merienda', cursive;
+ font-size:20px;
+ text-align:center;
+ padding-top:180px;
+
+}
+
+.formalText {
+ font-family: 'Great Vibes', cursive;
+ font-size:20px;
+ padding-top:180px;
+ text-align:center;
+
+}
+
+.artDecoText {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  padding-top:150px;
+  text-align:center;
+}
+

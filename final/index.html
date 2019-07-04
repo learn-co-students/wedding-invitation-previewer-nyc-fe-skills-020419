@@ -1,0 +1,70 @@
+<!doctype html>
+<head>
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Dancing+Script|Great+Vibes|Merienda" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+  <body class="body">
+      <header>
+          <h2 class="header">Wedding Invitation Designer</h2>
+      </header>
+      <main>
+      
+      <aside>
+        <!--<div class="container"> -->
+          <div class="child-1">
+           <h2 class="header-2">Choose your style:</h2>
+           <div class="buttons">
+              <!--<div id="formalButton" class="button">-->
+                <input type="button" class="button" id="formal" value="Formal" onclick="changeBackground();"/>
+      
+              <!--<div id="springButton">-->
+               <input type="button" class="button" id="spring" value="Spring" onclick="changeBackground2();"/>
+       
+            <!--<div id="artDecoButton">-->
+             <input type="button" class="button" id="artDeco" value="ArtDeco" onclick="changeBackground3();"/>
+        </div>
+        </div>
+    </aside>
+    
+   
+       
+        <section class="desktop">
+        <div id="form" class="form">
+           <h2 class="header-3">Event details:</h2>
+         <!--<div id="formal">-->
+            <p>1st name:</p> <input type="text" name="1st-name" class="box" id="first" oninput="info()">
+            <p>2nd name: </p>
+          <input type="text" name="2nd-name" class="box" id="second" oninput="info()">
+            <p>Last name: </p>
+          <input type="text" name="last-name" class="box" id="last" oninput="info()">
+            <p>Date: </p>
+          <!--<input type="datetime-local" name="date" class="box" id="time_date_input" onchange="onDateChange(event)" placeholder = "Date & Time">-->
+          <input type="text" name="date" class="box" id="date-input" oninput="info()">
+            <p>Wedding location: </p>
+          <input type="text" name="location" class="box" id="location-input" oninput="info()">
+          </div>
+          </div>
+          
+          <div class="child-2">
+            <div class="template" id="templateChange">
+               <div id ="backgroundImg">
+                 <img>
+               </div>
+             <div id="templateTextContainer" class="textChange">
+              <h1 id ="initials"></h1>
+                <p id="both-names"></p>
+                <p id="last-name"></p>
+                <p id="date"></p>
+                <p id="location"></p>
+              </div>
+            </div>
+         </div>
+         
+        </section>
+       </main>
+     <script src="./index.json"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
